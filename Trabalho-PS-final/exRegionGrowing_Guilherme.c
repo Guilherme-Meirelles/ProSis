@@ -2,6 +2,10 @@
 #include <string.h>  // para usar a fun��o strcmp() que compara duas strings
 #include <stdlib.h>  // para usar a fun��o exit() que interrompe (aborta) a execu��o do programa.
 
+/*
+Utilizar a imagem com um lago para colorir a borda do lago de vermelho, levando em consideração que a luminosidade
+do lago é bem menor que de outros elementos, incluindo sua borda 
+*/
 typedef struct TpDADO {
             int L, C;
         } TpDADO;
